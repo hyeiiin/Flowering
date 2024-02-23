@@ -6,7 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Data
-@Component@Configuration
+@Component
+@Configuration
 @ConfigurationProperties(prefix = "spring.security.oauth2.client.registration.naver")
 public class NaverConfig {
     private String clientId;

@@ -82,7 +82,9 @@ public class JwtUtils {
 
         try{
             Jws<Claims> claimsJws = Jwts.parser().setSigningKey(accessSecretKey).parseClaimsJws(token);
-            unsafeTokenRepository.findById(token).ifPresent(value->{throw new JwtException(JwtErrorCode.TOKEN_SIGNATURE_ERROR);});
+            unsafeTokenRepository.findById(token).ifPresent(value -> {
+                throw new JwtException(JwtErrorCode.TOKEN_SIGNATURE_ERROR);
+            });
             return claimsJws;
         }catch ( MalformedJwtException e){
             log.info("exception : 잘못된 엑세스 토큰 시그니처");

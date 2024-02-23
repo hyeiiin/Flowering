@@ -33,4 +33,5 @@ public class CustomOAuth2Service implements OAuth2UserService<OAuth2UserRequest,
 
         return new DefaultOAuth2User(Collections.singleton(()-> UserRole.USER.name()),oAuthAttribute.convertToMap(),"email");
     }
+
 }

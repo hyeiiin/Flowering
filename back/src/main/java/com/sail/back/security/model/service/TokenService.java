@@ -21,6 +21,7 @@ public class TokenService {
     private final JwtUtils jwtUtils;
     private final RefreshTokenRepository refreshTokenRepository;
     private final UnsafeTokenRepository unsafeTokenRepository;
+
     public GeneratedToken generatedToken(Long id, String role){
         String accessToken = jwtUtils.generateAccessToken(id, role);
         String refreshToken = jwtUtils.generateRefreshToken(id, role);

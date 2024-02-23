@@ -1,9 +1,8 @@
 # 🌸 Flowering : 온라인 피부&뷰티 컨설팅
 
-![프로젝트팜플렛](https://lab.ssafy.com/s10-webmobile1-sub2/S10P12C106/-/raw/develop/docs/img/Pamphlet.png?ref_type=heads)
+![프로젝트팜플렛](/docs/img/Pamphlet.png)
 
-
-## Flowering 링크(웹) : [https://i10c106.p.ssafy.io](https://i10c106.p.ssafy.io)
+## Flowering 링크(웹) : [링크](https://i10c106.p.ssafy.io)
 ## 소개 영상 보기 : [youtube](https://youtu.be/Eyb5xEbmk2A)
 
 
@@ -98,33 +97,33 @@ SSAFY 10기 2학기 공통 프로젝트 - Flowering
 
 ## 🌷 시스템 아키텍쳐
 
-![시스템 아키텍쳐](https://lab.ssafy.com/s10-webmobile1-sub2/S10P12C106/-/raw/develop/docs/img/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png?ref_type=heads)
+![시스템 아키텍쳐](/docs/img/아키텍처.png)
 
 ## 🌷 팀원 역할 분배
 ---
-![역할 배분](https://lab.ssafy.com/s10-webmobile1-sub2/S10P12C106/-/raw/develop/docs/img/C106%ED%8C%80%EC%97%AD%ED%95%A0.png?ref_type=heads)
+![역할 배분](docs/img/C106팀역할.png)
 
 ## 🌷 프로젝트 산출물
 ---
-- [기능명세서](./docs/기능명세서.md)
-- [기획서](./docs/기획서.md)
-- [기획배경](./docs/기획배경.md)
-- [그라운드룰](./docs/그라운드룰.md)
-- [아키텍처](./docs/서비스_아키텍처.md)
-- [목업](./docs/목업.md)
-- [컨벤션](./docs/컨벤션.md)
-- [API 명세서](./docs/API.md)
-- [ERD](./docs/ERD.md)
-- [회의록 및 회고록](./docs/회의록.md)
-- [트러블슈팅](./docs/버그리포트.md)
+- [기능명세서](/docs/기능명세서.md)
+- [기획서](/docs/기획서.md)
+- [기획배경](/docs/기획배경.md)
+- [그라운드룰](/docs/그라운드룰.md)
+- [아키텍처](/docs/서비스_아키텍처.md)
+- [목업](/docs/목업.md)
+- [컨벤션](/docs/컨벤션.md)
+- [API 명세서](/docs/API.md)
+- [ERD](/docs/ERD.md)
+- [회의록 및 회고록](/docs/회의록.md)
+- [트러블슈팅](/docs/버그리포트.md)
 
 ## 🌷 프로젝트 결과물
-- [포팅메뉴얼](./exec/Flowering_포팅_메뉴얼.docx)
-- [최종발표자료](./exec/FLOWERING 최종 발표.pptx)
+- [포팅메뉴얼](/exec/Flowering_포팅_메뉴얼.docx)
+- [최종발표자료](/exec/FLOWERING_최종_발표.pptx)
 
 ## 구현 화면
 * 컨설팅
-  ![컨설팅신청](/uploads/c9664698ec6aa83cc8845246a57dd554/컨설팅신청.gif)
+  ![컨설팅신청](https://github.com/sail106/Flowering/assets/77579884/50f586e0-0134-4292-8334-a56505adb0bd)
 
 * 설문
   ![설문](/uploads/13029f5ed0cf0ece1b5d3f96b859b164/설문.gif)
@@ -138,8 +137,6 @@ SSAFY 10기 2학기 공통 프로젝트 - Flowering
 
 * 컨설팅
   ![컨설팅신청](/uploads/c9664698ec6aa83cc8845246a57dd554/컨설팅신청.gif)
-
-
 
 * 진단결과, 촬영 테스트
   ![포토테스트](/uploads/066aef4f6bc44a835d418d2dd945df68/포토테스트.gif)
