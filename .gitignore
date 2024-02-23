@@ -1,11 +1,10 @@
-# Default ignored files
-/shelf/
-/.idea
-/back/.gradle
-/back/.idea
-# Editor-based HTTP Client requests
-/httpRequests/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/back/.idea/
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 /back/.idea/

@@ -3,7 +3,7 @@ version: '3.8'
 services:
   nginx:
     container_name: nginx
-    image: gudals0420/s10c106-nginx:${TAG}
+    image: junwon1131/s10c106-nginx:${TAG}
     build:
       context: nginx
       dockerfile: Dockerfile
@@ -19,7 +19,7 @@ services:
 
   front:
     container_name: front
-    image: gudals0420/s10c106-front:${TAG}
+    image: junwon1131/s10c106-front:${TAG}
     build:
       context: ../front
       dockerfile: Dockerfile
@@ -31,7 +31,7 @@ services:
 
   back:
     container_name: back
-    image: gudals0420/s10c106-back:${TAG}
+    image: junwon1131/s10c106-back:${TAG}
     build:
       context: .
       dockerfile: Dockerfile

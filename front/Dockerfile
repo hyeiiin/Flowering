@@ -9,10 +9,11 @@ COPY package*.json ./
 # 프로젝트 의존성 설치
 RUN npm install
 
+
 # 프로젝트 소스 복사
 COPY . .
 
-# 환경변수 PATH 설정 (이미 설정되어 있음)
+# 환경변수 PATH 설정 (이미 설정되어 있음) 
 ENV PATH /front/node_modules/.bin:$PATH
 
 # 애플리케이션 실행
